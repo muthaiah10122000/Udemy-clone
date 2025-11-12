@@ -1,0 +1,182 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbartitle {
+
+    color: #892de1;
+}
+
+.navbarsec_2 {
+
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    border-radius: 30px;
+    border: solid 1px black;
+    justify-content: space-between;
+}
+
+.navbarsec_2 input {
+
+    border: none;
+    width: 60%;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.navbarsec_2 input:focus .navbarsec_2 {
+
+    border: solid 1px #892de1;
+}
+
+.navbarsec_3 {
+
+    display: flex;
+    gap: 20px;
+}
+
+.categories {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: solid 1px black;
+}
+
+.categories p {
+
+    background-color: #892de1;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.saleimage img {
+
+    width: 100%;
+}
+
+.saleimage {
+
+    display: flex;
+    background-image: url(./saleimg.webp);
+    height: 400px;
+}
+
+.quote {
+
+    background-color: white;
+    height: 100px;
+    top: 40%;
+    left: 10%;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.coursecard img {
+
+    height: 200px;
+    width: 200px;
+}
+
+.recommended-container {
+
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommended {
+
+    margin: 20px;
+}
+
+.topiclist {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.topiclist p {
+    padding: 10px;
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    margin: 10px;
+
+}
+
+.topics {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.popularcontainer {
+
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.popular {
+
+    margin: 20px;
+}
+
+.footer-1 {
+
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+    padding: 30px;
+}
+
+.footer-1 p {
+
+    margin: 20px;
+}
+
+.footer {
+
+    background-color: black;
+    color: white;
+}
+
+.footer-2 {
+
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
