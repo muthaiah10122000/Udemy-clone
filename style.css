@@ -198,6 +198,12 @@ body {
     margin: 20px;
 }
 
+.coursecard {
+
+    flex-grow: 1;
+    flex-basis: 10%;
+}
+
 .footer-1 {
 
     display: flex;
